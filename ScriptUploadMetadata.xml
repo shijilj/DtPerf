@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="DTC_Main.c" Filter="2" />
+    <FileEntry Name="DTC_WebOrder_Search_Functions.c" Filter="2" />
+    <FileEntry Name="DTC_WebOrder_Checkout_Functions.c" Filter="2" />
+    <FileEntry Name="DTC_Schedule_Service_Functions.c" Filter="2" />
+    <FileEntry Name="DTC_Search_Promotion_Functions.c" Filter="2" />
+    <FileEntry Name="DTC_WebOrder_Tires.c" Filter="2" />
+    <FileEntry Name="DTC_WebOrder_Wheels.c" Filter="2" />
+    <FileEntry Name="DTC_Tire_Types.c" Filter="2" />
+    <FileEntry Name="DTC_Wheel_Types.c" Filter="2" />
+    <FileEntry Name="DTC_Schedule_Service.c" Filter="2" />
+    <FileEntry Name="DTC_Search_Promotions.c" Filter="2" />
+    <FileEntry Name="DTC_Tire_Wheel_Sort_and_Filter.c" Filter="2" />
+    <FileEntry Name="Action1.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="Year.dat" Filter="2" />
+    <FileEntry Name="WheelBoltPattern.dat" Filter="2" />
+    <FileEntry Name="PhoneNO.dat" Filter="2" />
+    <FileEntry Name="URL.dat" Filter="2" />
+    <FileEntry Name="EmailID.dat" Filter="2" />
+    <FileEntry Name="TireAspectRatio.dat" Filter="2" />
+    <FileEntry Name="ServiceCode.dat" Filter="2" />
+    <FileEntry Name="Year1.dat" Filter="2" />
+    <FileEntry Name="SearchString.dat" Filter="2" />
+    <FileEntry Name="ZipCode.dat" Filter="2" />
+    <FileEntry Name="attributes.h" Filter="2" />
+    <FileEntry Name="dataParameters.h" Filter="2" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="2" />
+    <FileEntry Name="Breakpoints.xml" Filter="2" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="combined_1124.c" Filter="2" />
+    <FileEntry Name="combined_221.c" Filter="2" />
+    <FileEntry Name="combined_271.c" Filter="2" />
+    <FileEntry Name="combined_398.c" Filter="2" />
+    <FileEntry Name="combined_405.c" Filter="2" />
+    <FileEntry Name="combined_641.c" Filter="2" />
+    <FileEntry Name="combined_Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="1005320244.idx" Filter="1" />
+    <FileEntry Name="1124.prm.bak" Filter="1" />
+    <FileEntry Name="12801288644.idx" Filter="1" />
+    <FileEntry Name="1282737544.idx" Filter="1" />
+    <FileEntry Name="14807690744.idx" Filter="1" />
+    <FileEntry Name="18053598644.idx" Filter="1" />
+    <FileEntry Name="20496065544.idx" Filter="1" />
+    <FileEntry Name="25056134244.idx" Filter="1" />
+    <FileEntry Name="5176799344.idx" Filter="1" />
+    <FileEntry Name="7184950944.idx" Filter="1" />
+    <FileEntry Name="7303158944.idx" Filter="1" />
+    <FileEntry Name="9306473744.idx" Filter="1" />
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.c.pickle" Filter="1" />
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.ci" Filter="1" />
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.prm" Filter="1" />
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.prm.bak" Filter="1" />
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.sdf" Filter="1" />
+    <FileEntry Name="Hybris_DTC_UpdatedLoad_BlackFriday_2.0.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="pre_cci.c.pickle" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>
