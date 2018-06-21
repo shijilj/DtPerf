@@ -7,8 +7,9 @@
 #include "web_api.h"
 #include "lrw_custom_body.h"
 
-#include "C:\\Users\\sjanardhan\\Documents\\Hybris\\Scripts\\Sourcedata\\attributes.h"
-//#include "attributes.h"
+//#include "C:\\Users\\sjanardhan\\Documents\\Hybris\\Scripts\\Sourcedata\\attributes.h"
+#include "attributes.h"
+#include "dataParameters.h"
 
 //--------------------------------------------------------------------
 // Global Variables

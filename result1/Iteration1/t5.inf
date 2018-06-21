@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=DummyContentType
+StepName=Url: makes
+Total=1
+FileName1=t5.UNK
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1526593679740
+RawStepName=makes
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1526593679647
+URL1=https://dtqa1.epic.discounttire.com/fitment/vehicle/makes?year=2012

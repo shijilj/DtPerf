@@ -42,6 +42,7 @@
     <FileEntry Name="Breakpoints.xml" Filter="2" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="UserTasks.xml" Filter="2" />
     <FileEntry Name="combined_1124.c" Filter="2" />
     <FileEntry Name="combined_221.c" Filter="2" />
@@ -51,6 +52,7 @@
     <FileEntry Name="combined_641.c" Filter="2" />
     <FileEntry Name="combined_Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="1005320244.idx" Filter="1" />
     <FileEntry Name="1124.prm.bak" Filter="1" />
     <FileEntry Name="12801288644.idx" Filter="1" />
@@ -72,12 +74,13 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
-    <FileEntry Name="pre_cci.c.pickle" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

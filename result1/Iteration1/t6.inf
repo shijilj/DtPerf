@@ -1,0 +1,13 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=DummyContentType
+StepName=Url: models
+Total=1
+FileName1=t6.UNK
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=1526593681807
+RawStepName=models
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1526593681722
+URL1=https://dtqa1.epic.discounttire.com/fitment/vehicle/models?year=2012&make=ACURA

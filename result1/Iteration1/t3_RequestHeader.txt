@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+x-dynaTrace: NA=DTC_Home; SN=Hybris_STG_DTC_API; TE=Hybris_STG_API_LoadTest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Accept: */*
+Connection: Keep-Alive
+Host: dtqa1.epic.discounttire.com
+

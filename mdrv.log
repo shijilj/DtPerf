@@ -1,10 +1,288 @@
-Error: CCI compilation error -c:\users\sjanardhan\documents\hybris\scripts\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\pre_cci.c: Action1.c:4: error: syntax error; found `,' expecting `}'.	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\sjanardhan\documents\hybris\scripts\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\pre_cci.c: Action1.c:4: error: skipping `,' "TOYOTA ... `,' "9041 ... `,' "13828 ... `,' "00000NMA ....	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\sjanardhan\documents\hybris\scripts\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\pre_cci.c: Action1.c:4: error: syntax error; found `,' expecting `}'.	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\sjanardhan\documents\hybris\scripts\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\pre_cci.c: Action1.c:4: error: skipping `,' "ACURA ... `,' "2956 ... `,' "17110 ... `,' "000001XI ....	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\sjanardhan\documents\hybris\scripts\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\pre_cci.c: Action1.c:4: error: syntax error; found `,' expecting `}'.	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\sjanardhan\documents\hybris\scripts\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\pre_cci.c: Action1.c:4: error: skipping `,' "FORD ... `,' "5193 ... `,' "7736 ... `,' "00000EIB ....	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\sjanardhan\documents\hybris\scripts\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\pre_cci.c: c:\\users\\sjanardhan\\documents\\hybris\\scripts\\hybris_dtc_updatedload_blackfriday_2.0.14hf1_shijiltest\\\\combined_Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest.c:18: error: 6 errors, not writing pre_cci.ci.	[MsgId: MERR-19799]
-Error: Vuser compilation failed. Please set CCIDebug to Off in CCI section of mdrv.dat file.	[MsgId: MERR-19797]
-Warning: Extension cciext.dll reports error -19797 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
-Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]
+Virtual User Script started at : 5/17/2018 2:47:03 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 7; build 1982 (May 17 2018 21:02:03)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\sjanardhan\Documents\Hybris\Scripts\Hybris_DTC_UpdatedLoad_BlackFriday_2.0.14hf1_ShijilTest\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action DTC_Main.
+DTC_Main.c(15): Running via Standalone/Vugen or Buildverification
+DTC_Main.c(27): Notify: Saving Parameter "URL = dtqa1.epic.discounttire.com".
+DTC_Main.c(43): web_add_auto_filter started  	[MsgId: MMSG-26355]
+DTC_Main.c(43): web_add_auto_filter was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1829): web_cache_cleanup started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1829): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1830): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1830): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1832): web_global_verification started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1832): Registering web_global_verification was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(1834): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1834): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1836): web_set_sockets_option started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1836): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+DTC_Main.c(89): Notify: Saving Parameter "TestCaseNo = 6".
+DTC_WebOrder_Search_Functions.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(17): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(17): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(20): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(20): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(31): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(31): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(34): Notify: Saving Parameter "Txn_Name = DTC_Home".
+DTC_WebOrder_Search_Functions.c(36): web_add_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(36): Notify: Parameter Substitution: parameter "Txn_Name" =  "DTC_Home"
+DTC_WebOrder_Search_Functions.c(36): web_add_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(38): Notify: Transaction "DTC_Home" started.
+DTC_WebOrder_Search_Functions.c(84): web_set_sockets_option started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(84): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(86): web_url("{URL}") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(86): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "JSESSIONID = 380A35AE0A3B340A60583678A3B46F3E".
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "TireType = \n				\n                <ul class="header__drop-down-list">\n				<li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-all-season-tires" href="/tires/all-season"><span>All-Season Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-performance-tires" href="/tires/performance"><span>Performance Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-all-terrain-tires" href="/tires/all-terrain"><span>All-Terrain Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-winter-tires" href="/tires/winter"><span>Winter Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                                    <a class="dt-link track-header-link" href="/tires"><span>View all</span></a>\n                                </li>\n                            </ul>\n\n			".
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "WheelType = \n				\n                <ul class="header__drop-down-list">\n				<li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-painted-wheels" href="/wheels/painted"><span>Painted Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-machined-wheels" href="/wheels/machined"><span>Machined Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-chrome-wheels" href="/wheels/chrome"><span>Chrome Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-mesh-wheels" href="/wheels/mesh"><span>Mesh Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                                    <a class="dt-link track-header-link" href="/wheels"><span>View all</span></a>\n                                </li>\n                            </ul>\n\n			".
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "CSRFToken = afdfd6eb-9a55-4c95-b711-fb8efc308c78".
+DTC_WebOrder_Search_Functions.c(86): Registered web_reg_find successful for "Text=Services" (count=5)  	[MsgId: MMSG-26364]
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "TextCheck = 5".
+DTC_WebOrder_Search_Functions.c(86): web_url("{URL}") was successful, 109620 body bytes, 911 header bytes, 114 chunking overhead bytes  	[MsgId: MMSG-26385]
+DTC_WebOrder_Search_Functions.c(149): web_add_cookie started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(149): Notify: Parameter Substitution: parameter "ZipCode" =  "75150"
+DTC_WebOrder_Search_Functions.c(149): web_add_cookie was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(151): web_add_cookie started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(151): Notify: Next row for parameter StoreName = 12 [table  = StoreName].
+DTC_WebOrder_Search_Functions.c(151): Notify: Parameter Substitution: parameter "StoreName" =  "1196"
+DTC_WebOrder_Search_Functions.c(151): web_add_cookie was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(169): Notify: Parameter Substitution: parameter "CSRFToken" =  "afdfd6eb-9a55-4c95-b711-fb8efc308c78"
+DTC_WebOrder_Search_Functions.c(1781): web_remove_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1781): Previous automatically added web header for "x-dynaTrace" removed  	[MsgId: MMSG-26587]
+DTC_WebOrder_Search_Functions.c(1781): web_remove/revert_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1783): Notify: Parameter Substitution: parameter "TextCheck" =  "5"
+DTC_WebOrder_Search_Functions.c(169): Notify: Transaction "DTC_Home" ended with a "Pass" status (Duration: 1.5587 Wasted Time: 1.1702).
+DTC_WebOrder_Search_Functions.c(1572): Notify: Saving Parameter "Txn_Name = DTC_MiniCart_Ajax".
+DTC_WebOrder_Search_Functions.c(1574): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1574): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(1576): web_add_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1576): Notify: Parameter Substitution: parameter "Txn_Name" =  "DTC_MiniCart_Ajax"
+DTC_WebOrder_Search_Functions.c(1576): web_add_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1578): Notify: Transaction "DTC_MiniCart_Ajax" started.
+DTC_WebOrder_Search_Functions.c(1580): web_url("miniCart") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1580): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(1580): Registered web_reg_find successful for "Text={"entries":[" (count=1)  	[MsgId: MMSG-26364]
+DTC_WebOrder_Search_Functions.c(1580): Notify: Saving Parameter "TextCheck = 1".
+DTC_WebOrder_Search_Functions.c(1580): web_url("miniCart") was successful, 276 body bytes, 689 header bytes  	[MsgId: MMSG-26386]
+DTC_WebOrder_Search_Functions.c(1590): Notify: Parameter Substitution: parameter "CSRFToken" =  "afdfd6eb-9a55-4c95-b711-fb8efc308c78"
+DTC_WebOrder_Search_Functions.c(1781): web_remove_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1781): Previous automatically added web header for "x-dynaTrace" removed  	[MsgId: MMSG-26587]
+DTC_WebOrder_Search_Functions.c(1781): web_remove/revert_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1783): Notify: Parameter Substitution: parameter "TextCheck" =  "1"
+DTC_WebOrder_Search_Functions.c(1590): Notify: Transaction "DTC_MiniCart_Ajax" ended with a "Pass" status (Duration: 0.1193 Wasted Time: 0.0093).
+DTC_WebOrder_Search_Functions.c(3): web_cache_cleanup started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(3): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(4): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(4): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(17): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(17): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(20): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(20): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(31): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(31): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(34): Notify: Saving Parameter "Txn_Name = DTC_Home".
+DTC_WebOrder_Search_Functions.c(36): web_add_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(36): Notify: Parameter Substitution: parameter "Txn_Name" =  "DTC_Home"
+DTC_WebOrder_Search_Functions.c(36): web_add_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(38): Notify: Transaction "DTC_Home" started.
+DTC_WebOrder_Search_Functions.c(84): web_set_sockets_option started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(84): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(86): web_url("{URL}") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(86): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "JSESSIONID = 8B54210BC8EDE3EA12547007286BA8D2".
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "TireType = \n				\n                <ul class="header__drop-down-list">\n				<li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-all-season-tires" href="/tires/all-season"><span>All-Season Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-performance-tires" href="/tires/performance"><span>Performance Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-all-terrain-tires" href="/tires/all-terrain"><span>All-Terrain Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-winter-tires" href="/tires/winter"><span>Winter Tires</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                                    <a class="dt-link track-header-link" href="/tires"><span>View all</span></a>\n                                </li>\n                            </ul>\n\n			".
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "WheelType = \n				\n                <ul class="header__drop-down-list">\n				<li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-painted-wheels" href="/wheels/painted"><span>Painted Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-machined-wheels" href="/wheels/machined"><span>Machined Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-chrome-wheels" href="/wheels/chrome"><span>Chrome Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                            	<a class="header__link--secondary track-header-link auto-header-mesh-wheels" href="/wheels/mesh"><span>Mesh Wheels</span></a>\n                            </li>\n                        <li class="header__drop-down-item">\n                                    <a class="dt-link track-header-link" href="/wheels"><span>View all</span></a>\n                                </li>\n                            </ul>\n\n			".
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "CSRFToken = e357cc84-2173-4090-a2a4-51e60f6d781b".
+DTC_WebOrder_Search_Functions.c(86): Registered web_reg_find successful for "Text=Services" (count=5)  	[MsgId: MMSG-26364]
+DTC_WebOrder_Search_Functions.c(86): Notify: Saving Parameter "TextCheck = 5".
+DTC_WebOrder_Search_Functions.c(86): web_url("{URL}") was successful, 109617 body bytes, 911 header bytes, 106 chunking overhead bytes  	[MsgId: MMSG-26385]
+DTC_WebOrder_Search_Functions.c(149): web_add_cookie started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(149): Notify: Parameter Substitution: parameter "ZipCode" =  "75150"
+DTC_WebOrder_Search_Functions.c(149): web_add_cookie was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(151): web_add_cookie started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(151): Notify: Next row for parameter StoreName = 12 [table  = StoreName].
+DTC_WebOrder_Search_Functions.c(151): Notify: Parameter Substitution: parameter "StoreName" =  "1196"
+DTC_WebOrder_Search_Functions.c(151): web_add_cookie was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(169): Notify: Parameter Substitution: parameter "CSRFToken" =  "e357cc84-2173-4090-a2a4-51e60f6d781b"
+DTC_WebOrder_Search_Functions.c(1781): web_remove_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1781): Previous automatically added web header for "x-dynaTrace" removed  	[MsgId: MMSG-26587]
+DTC_WebOrder_Search_Functions.c(1781): web_remove/revert_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1783): Notify: Parameter Substitution: parameter "TextCheck" =  "5"
+DTC_WebOrder_Search_Functions.c(169): Notify: Transaction "DTC_Home" ended with a "Pass" status (Duration: 0.1618 Wasted Time: 0.0116).
+DTC_WebOrder_Search_Functions.c(1572): Notify: Saving Parameter "Txn_Name = DTC_MiniCart_Ajax".
+DTC_WebOrder_Search_Functions.c(1574): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1574): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(1576): web_add_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1576): Notify: Parameter Substitution: parameter "Txn_Name" =  "DTC_MiniCart_Ajax"
+DTC_WebOrder_Search_Functions.c(1576): web_add_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1578): Notify: Transaction "DTC_MiniCart_Ajax" started.
+DTC_WebOrder_Search_Functions.c(1580): web_url("miniCart") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1580): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(1580): Registered web_reg_find successful for "Text={"entries":[" (count=1)  	[MsgId: MMSG-26364]
+DTC_WebOrder_Search_Functions.c(1580): Notify: Saving Parameter "TextCheck = 1".
+DTC_WebOrder_Search_Functions.c(1580): web_url("miniCart") was successful, 276 body bytes, 689 header bytes  	[MsgId: MMSG-26386]
+DTC_WebOrder_Search_Functions.c(1590): Notify: Parameter Substitution: parameter "CSRFToken" =  "e357cc84-2173-4090-a2a4-51e60f6d781b"
+DTC_WebOrder_Search_Functions.c(1781): web_remove_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1781): Previous automatically added web header for "x-dynaTrace" removed  	[MsgId: MMSG-26587]
+DTC_WebOrder_Search_Functions.c(1781): web_remove/revert_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1783): Notify: Parameter Substitution: parameter "TextCheck" =  "1"
+DTC_WebOrder_Search_Functions.c(1590): Notify: Transaction "DTC_MiniCart_Ajax" ended with a "Pass" status (Duration: 0.1152 Wasted Time: 0.0064).
+DTC_Tire_Wheel_Sort_and_Filter.c(7): Notify: Saving Parameter "BrandFilter_count = 0".
+DTC_Tire_Wheel_Sort_and_Filter.c(8): Notify: Saving Parameter "FilterApplied = 0".
+dataParameters.h(14): Notify: Saving Parameter "Fitment_Year = 2012".
+dataParameters.h(15): Notify: Saving Parameter "Fitment_Make = ACURA".
+dataParameters.h(16): Notify: Saving Parameter "Fitment_Model = 2956".
+dataParameters.h(17): Notify: Saving Parameter "Fitment_Trim = 17110".
+dataParameters.h(18): Notify: Saving Parameter "Fitment_Assembly = 000001XI".
+DTC_Tire_Wheel_Sort_and_Filter.c(26): Notify: Parameter Substitution: parameter "Fitment_Year" =  "2012"
+DTC_Tire_Wheel_Sort_and_Filter.c(26): Notify: Parameter Substitution: parameter "Fitment_Make" =  "ACURA"
+DTC_Tire_Wheel_Sort_and_Filter.c(26): Notify: Parameter Substitution: parameter "Fitment_Model" =  "2956"
+DTC_Tire_Wheel_Sort_and_Filter.c(26): Notify: Parameter Substitution: parameter "Fitment_Trim" =  "17110"
+DTC_WebOrder_Search_Functions.c(268): Notify: Saving Parameter "vYear = 2012".
+DTC_WebOrder_Search_Functions.c(269): Notify: Saving Parameter "vMake = ACURA".
+DTC_WebOrder_Search_Functions.c(270): Notify: Saving Parameter "vModel = 2956".
+DTC_WebOrder_Search_Functions.c(271): Notify: Saving Parameter "vTrim = 17110".
+DTC_WebOrder_Search_Functions.c(275): Notify: Saving Parameter "Txn_Name = DTC_Select_Vehicle".
+DTC_WebOrder_Search_Functions.c(277): web_add_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(277): Notify: Parameter Substitution: parameter "Txn_Name" =  "DTC_Select_Vehicle"
+DTC_WebOrder_Search_Functions.c(277): web_add_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(279): Notify: Transaction "DTC_Select_Vehicle" started.
+DTC_WebOrder_Search_Functions.c(281): web_url("makes") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(281): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(281): Notify: Parameter Substitution: parameter "vYear" =  "2012"
+DTC_WebOrder_Search_Functions.c(281): web_url("makes") was successful, 217 body bytes, 689 header bytes  	[MsgId: MMSG-26386]
+DTC_WebOrder_Search_Functions.c(293): web_url("models") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(293): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(293): Notify: Parameter Substitution: parameter "vYear" =  "2012"
+DTC_WebOrder_Search_Functions.c(293): Notify: Parameter Substitution: parameter "vMake" =  "ACURA"
+DTC_WebOrder_Search_Functions.c(293): web_url("models") was successful, 2 body bytes, 696 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+DTC_WebOrder_Search_Functions.c(307): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(307): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(309): web_url("trims") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(309): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(309): Notify: Parameter Substitution: parameter "vModel" =  "2956"
+DTC_WebOrder_Search_Functions.c(309): Registered web_reg_find successful for "Text=description" (count=1)  	[MsgId: MMSG-26364]
+DTC_WebOrder_Search_Functions.c(309): Notify: Saving Parameter "TextCheck = 1".
+DTC_WebOrder_Search_Functions.c(309): web_url("trims") was successful, 43 body bytes, 688 header bytes  	[MsgId: MMSG-26386]
+DTC_WebOrder_Search_Functions.c(319): Notify: Next row for parameter StoreName = 12 [table  = StoreName].
+DTC_WebOrder_Search_Functions.c(319): Notify: Parameter Substitution: parameter "StoreName" =  "1196"
+DTC_WebOrder_Search_Functions.c(319): Notify: Parameter Substitution: parameter "vYear" =  "2012"
+DTC_WebOrder_Search_Functions.c(319): Notify: Parameter Substitution: parameter "vMake" =  "ACURA"
+DTC_WebOrder_Search_Functions.c(319): Notify: Parameter Substitution: parameter "vModel" =  "2956"
+DTC_WebOrder_Search_Functions.c(319): Notify: Saving Parameter "VehData = Site-1196 Veh-2012 ACURA 2956".
+DTC_WebOrder_Search_Functions.c(323): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(323): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(325): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(325): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(327): web_url("assemblies") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(327): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(327): Notify: Parameter Substitution: parameter "vTrim" =  "17110"
+DTC_WebOrder_Search_Functions.c(327): Notify: Saving Parameter "Assembly_1 = 000008HK".
+DTC_WebOrder_Search_Functions.c(327): Notify: Saving Parameter "Assembly_Letter_1 = B".
+DTC_WebOrder_Search_Functions.c(327): Notify: Saving Parameter "Assembly_count = 1".
+DTC_WebOrder_Search_Functions.c(327): Notify: Saving Parameter "Assembly_Letter_count = 1".
+DTC_WebOrder_Search_Functions.c(327): web_url("assemblies") was successful, 79 body bytes, 696 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+DTC_WebOrder_Search_Functions.c(337): Notify: Parameter Substitution: parameter "VehData" =  "Site-1196 Veh-2012 ACURA 2956"
+DTC_WebOrder_Search_Functions.c(1781): web_remove_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1781): Previous automatically added web header for "x-dynaTrace" removed  	[MsgId: MMSG-26587]
+DTC_WebOrder_Search_Functions.c(1781): web_remove/revert_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1783): Notify: Parameter Substitution: parameter "TextCheck" =  "1"
+DTC_WebOrder_Search_Functions.c(337): Notify: Transaction "DTC_Select_Vehicle" ended with a "Pass" status (Duration: 23.0888 Wasted Time: 0.0307).
+DTC_WebOrder_Search_Functions.c(352): Notify: Parameter Substitution: parameter "Assembly_count" =  "1"
+DTC_WebOrder_Search_Functions.c(354): Notify: Parameter Substitution: parameter "Assembly_1" =  "000008HK"
+DTC_WebOrder_Search_Functions.c(354): Notify: Saving Parameter "RandAssembly = 000008HK".
+DTC_WebOrder_Search_Functions.c(356): Notify: Parameter Substitution: parameter "Assembly_Letter_1" =  "B"
+DTC_WebOrder_Search_Functions.c(356): Notify: Saving Parameter "RandAssembly_Letter = B".
+DTC_WebOrder_Search_Functions.c(361): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(361): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(365): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(365): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(367): Notify: Saving Parameter "Txn_Name = DTC_Click_ShopformyVehicle".
+DTC_WebOrder_Search_Functions.c(369): web_add_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(369): Notify: Parameter Substitution: parameter "Txn_Name" =  "DTC_Click_ShopformyVehicle"
+DTC_WebOrder_Search_Functions.c(369): web_add_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(371): Notify: Transaction "DTC_Click_ShopformyVehicle" started.
+DTC_WebOrder_Search_Functions.c(373): web_submit_data("selectByVehicleId") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(373): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(373): Notify: Parameter Substitution: parameter "vModel" =  "2956"
+DTC_WebOrder_Search_Functions.c(373): Notify: Parameter Substitution: parameter "vTrim" =  "17110"
+DTC_WebOrder_Search_Functions.c(373): Notify: Parameter Substitution: parameter "RandAssembly" =  "000008HK"
+DTC_WebOrder_Search_Functions.c(373): Notify: Parameter Substitution: parameter "CSRFToken" =  "e357cc84-2173-4090-a2a4-51e60f6d781b"
+DTC_WebOrder_Search_Functions.c(373): Notify: Saving Parameter "c_vehAssembly = 255/55-R18".
+DTC_WebOrder_Search_Functions.c(373): Registered web_reg_find successful for "Text=description" (count=9)  	[MsgId: MMSG-26364]
+DTC_WebOrder_Search_Functions.c(373): Notify: Saving Parameter "TextCheck = 9".
+DTC_WebOrder_Search_Functions.c(373): web_submit_data("selectByVehicleId") was successful, 17614 body bytes, 696 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+DTC_WebOrder_Search_Functions.c(389): Notify: Parameter Substitution: parameter "VehData" =  "Site-1196 Veh-2012 ACURA 2956"
+DTC_WebOrder_Search_Functions.c(1781): web_remove_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(1781): Previous automatically added web header for "x-dynaTrace" removed  	[MsgId: MMSG-26587]
+DTC_WebOrder_Search_Functions.c(1781): web_remove/revert_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(1783): Notify: Parameter Substitution: parameter "TextCheck" =  "9"
+DTC_WebOrder_Search_Functions.c(389): Notify: Transaction "DTC_Click_ShopformyVehicle" ended with a "Pass" status (Duration: 1.3342 Wasted Time: 0.0063).
+DTC_WebOrder_Search_Functions.c(403): Notify: Parameter Substitution: parameter "URL" =  "dtqa1.epic.discounttire.com"
+DTC_WebOrder_Search_Functions.c(405): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(405): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(407): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(407): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(416): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(416): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(429): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(429): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(434): web_reg_save_param started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(434): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(438): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(438): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(445): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(445): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(447): web_reg_find started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(447): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+DTC_WebOrder_Search_Functions.c(451): Notify: Saving Parameter "Txn_Name = DTC_Click_Tires".
+DTC_WebOrder_Search_Functions.c(453): web_add_auto_header("x-dynaTrace") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(453): Notify: Parameter Substitution: parameter "Txn_Name" =  "DTC_Click_Tires"
+DTC_WebOrder_Search_Functions.c(453): web_add_auto_header("x-dynaTrace") was successful  	[MsgId: MMSG-26392]
+DTC_WebOrder_Search_Functions.c(455): Notify: Transaction "DTC_Click_Tires" started.
+DTC_WebOrder_Search_Functions.c(457): web_url("tires") started  	[MsgId: MMSG-26355]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "Store_Letters = AZP 29".
+DTC_WebOrder_Search_Functions.c(457): Warning -26377: No match found for the requested parameter "ProductCode". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 99999 bytes. The total length of the response is 88442 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MWAR-26377]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "ProductCode_count = 0".
+DTC_WebOrder_Search_Functions.c(457): Error -26377: No match found for the requested parameter "ProductLink". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 99999 bytes. The total length of the response is 88442 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "ProductLink_count = 0".
+DTC_WebOrder_Search_Functions.c(457): Warning -26377: No match found for the requested parameter "BrandAllFilter". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 99999 bytes. The total length of the response is 88442 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MWAR-26377]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "BrandAllFilter_count = 0".
+DTC_WebOrder_Search_Functions.c(457): Warning -26377: No match found for the requested parameter "Reviews_URL". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 99999 bytes. The total length of the response is 88442 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MWAR-26377]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "Reviews_URL_count = 0".
+DTC_WebOrder_Search_Functions.c(457): Registered web_reg_find successful for "Text=stockLevel.inStock"  	[MsgId: MMSG-26362]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "InStock_Count = 0".
+DTC_WebOrder_Search_Functions.c(457): Registered web_reg_find successful for "Text=Search Results Page"  	[MsgId: MMSG-26362]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "TextCheck = 0".
+DTC_WebOrder_Search_Functions.c(457): Registered web_reg_find successful for "Text=No product results found for"  	[MsgId: MMSG-26362]
+DTC_WebOrder_Search_Functions.c(457): Notify: Saving Parameter "NoResTextCheck = 0".
+DTC_WebOrder_Search_Functions.c(457): web_url("tires") highest severity level was "ERROR", 88442 body bytes, 836 header bytes, 91 chunking overhead bytes  	[MsgId: MMSG-26387]
+DTC_WebOrder_Search_Functions.c(457): Notify: Transaction "DTC_Click_Tires" ended with a "Fail" status (Duration: 0.1532 Wasted Time: 0.0114).
+DTC_WebOrder_Search_Functions.c(457): Notify: Transaction "DTC_Click_Tires" has 1 error message(s).
+DTC_WebOrder_Search_Functions.c(457): Notify: The 1st error message associated with transaction "DTC_Click_Tires" is "Error -26377: No match found for the requested parameter "ProductLink". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 99999 bytes. The total length of the response is 88442 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
+Ending action DTC_Main.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 5020), ended OK."

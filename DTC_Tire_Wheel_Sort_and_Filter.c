@@ -21,8 +21,9 @@ DTC_Tire_Wheel_Sort_and_Filter()
 	
 	if (rand_iter_num <= 37)
 	{
-		DTC_Select_Vehicle("DTC_Select_Vehicle", lr_eval_string("{Year1}"), lr_eval_string("{Make1}"), lr_eval_string("{Model1}"), lr_eval_string("{Trim1}"));
-	
+		get_fitment();
+//		DTC_Select_Vehicle("DTC_Select_Vehicle", lr_eval_string("{Year1}"), lr_eval_string("{Make1}"), lr_eval_string("{Model1}"), lr_eval_string("{Trim1}"));
+		DTC_Select_Vehicle("DTC_Select_Vehicle", lr_eval_string("{Fitment_Year}"), lr_eval_string("{Fitment_Make}"), lr_eval_string("{Fitment_Model}"), lr_eval_string("{Fitment_Trim}"));
 		DTC_Shop_for_Vehicle("DTC_Click_ShopformyVehicle");
 	}
 	
